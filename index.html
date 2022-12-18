@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="en-US" class="theme-dark">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="/styles/ini/css/default.css">
+            <link rel="stylesheet" href="/styles/css/index.css">
+            <title>Practical work num. 14</title>
+        </head>
+    <body>
+        <div class="body-content">
+            <main>
+                <div class="main-content">
+                    <section class="task-1">
+                        <div class="block-container">
+                            <div class="img-container">
+                                <img src="/resources/images/cat-default.jpg" alt="Cat" id="cat-img">
+                            </div>
+                            <button class="btn clickable ff-button" id="change-cat">Change cat</button>
+                        </div>
+                        <div class="block-container">
+                            <div class="img-container">
+                                <img src="/resources/images/dog-default.jpg" alt="Dog" id="dog-img">
+                            </div>
+                            <button class="btn clickable ff-button" id="change-dog">Change dog</button>
+                        </div>
+                    </section>
+                    <section class="task-2">
+                        <div class="converter-container">
+                            <div class="title ff-headline-5">Currency converter</div>
+                            <div class="box input-box ff-body-2">
+                                <select name="currency" class="currency"></select>
+                                <input type="number" id="input">
+                            </div>
+                            <div class="box output-box ff-body-2">
+                                <select name="currency" class="currency"></select>
+                                <input type="number" id="output" disabled>
+                            </div>
+                            <div class="btn-container">
+                                <div class="btn convert-btn clickable ff-button" id="convert">Convert</div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+
+        <!-- Scripts -->
+        <script src="/src/js/change-pet.js"></script>
+        <script src="/src/js/converter.js"></script>
+    </body>
+</html>
